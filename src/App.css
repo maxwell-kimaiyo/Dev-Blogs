@@ -1,0 +1,47 @@
+.App {
+  text-align: center;
+}
+html[data-theme="dark"] body,
+html[data-theme="dark"] .article-container {
+  transition: all 250ms ease-in-out;
+}
+html[data-theme="dark"] .home-banner {
+  transition: all 250ms ease-in-out 250ms;
+}
+
+html[data-theme="dark"] .articles-box {
+  filter: invert(1) hue-rotate(180deg);
+}
+html[data-theme="dark"] .home-banner,
+html[data-theme="dark"] body,
+html[data-theme="dark"] .article-container {
+  background: #0e0e0e;
+  color: white;
+}
+html[data-theme="dark"] .markdown-body > * {
+  color: white;
+}
+html[data-theme="dark"] svg {
+  fill: white;
+}
+html[data-theme="dark"] .markdown-body {
+  background: #0e0e0e;
+}
+.button-container {
+  position: absolute;
+  z-index: 999;
+  right: 50px;
+  top: 100px;
+  background: rgb(209, 209, 209);
+  padding: 0.7rem 0.3rem;
+  border-radius: 50%;
+}
+html[data-theme="dark"] .button-container {
+  background: rgba(255, 255, 255, 1);
+}
+@media screen and (max-width: 900px) {
+  .button-container {
+    right: 25px;
+    top: 50px;
+  }
+}
