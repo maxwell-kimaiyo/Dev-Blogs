@@ -267,3 +267,17 @@ Wow, thanks a lot feel free to make a PR, even a simple update will be helpful
                 </td></tr>
 </table>
 
+## <br /> Thank You All Contributing and Making The Source Open :stars:.
+:tada: We did love to see more commits and raised issues by you all :tada:.
+:sparkles: To Contribute check the Contribute.md and start making your first PR and Commit's. :sparkles: :tada:
+<table>
+<tr>
+                <td align="center">
+                    <a href="https://github.com/Developer-Kimaiyo">
+                        <img src="https://avatars0.githubusercontent.com/u/46890401?v=4" width="100;" alt="Developer-Kimaiyo"/>
+                        <br />
+                        <sub><b>MAXWELL KIMAIYO</b></sub>
+                    </a>
+                </td></tr>
+</table>
+
